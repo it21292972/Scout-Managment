@@ -1,0 +1,82 @@
+.navbarbadge {
+  display: flex;
+  align-items: center;
+  background-color: #c9c9cc;
+  width: 100%;
+
+  .logo {
+    margin-left: 10px;
+    width: 275px;
+    height: 100px;
+  }
+
+  .navContainer {
+    padding-top: 25px;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Increased spacing */
+    align-items: center;
+  }
+
+  .navItem {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .navbutton1,
+  .navbutton2,
+  .navbutton3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    &:hover {
+      background-color: #601e9a;
+      color: white;
+      transition-duration: 0.5s;
+    }
+  }
+
+  .rightnav {
+    display: flex;
+    align-items: center;
+  }
+
+  .notification {
+    font-size: 40px;
+  }
+
+  .status,
+  .name,
+  .destination {
+    display: flex;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  .profile {
+    padding-left: 10px;
+    justify-content: end;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+  }
+
+  .navbutton1.active,
+  .navbutton2.active,
+  .navbutton3.active {
+    background-color: #601e9a;
+    color: white;
+  }
+}

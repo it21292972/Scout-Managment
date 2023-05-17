@@ -1,0 +1,11 @@
+.chart{
+    flex:2;
+    height: 500px;
+    -webkit-box-shadow: 2px 5px 15px 1px #A3A3A3; 
+    box-shadow: 2px 5px 15px 1px #A3A3A3;
+    padding: 10px;
+    border-radius: 10px;
+    .topic{
+        color: gray;
+    }
+}

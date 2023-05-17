@@ -1,0 +1,108 @@
+.datatable {
+    height: 600px;
+    padding: 10px;
+    
+    .datatableTitle{
+      width: 100%;
+      font-size: 30px;
+      color: gray;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .link{
+        text-decoration: none;
+        background-color: #ffffff;
+        //color: #601e9a;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid #601e9a;
+        padding: 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #601e9a;
+          color: #ffffff;
+          transition-duration: 0.2s;
+        }
+      }
+    }
+  
+    .cellAction {
+      display: flex;
+      align-items: center;
+      gap: 1000px;
+  
+
+      
+      .passButton {
+        padding: 5px 8px;
+        border-radius: 5px;
+        //color: rgb(18, 203, 82);
+        border: 1px dotted rgb(18, 203, 82);
+        cursor: pointer;
+    
+      
+        &:hover {
+          background-color: rgba(0, 255, 0,0.5);
+          transition-duration: 0.3s;
+        }
+      }
+      
+      .SchedulButton {
+        padding: 5px 5px;
+        border-radius: 5px;
+        //color: black;
+        border: 1px dotted rgb( 128, 0, 128);
+        cursor: pointer;
+  
+      
+        &:hover {
+          background-color: #dca9df;
+          transition-duration: 0.3s;
+        }
+      }
+      
+      
+      .deleteButton {
+        padding: 5px 5px;
+        border-radius: 5px;
+        color: crimson;
+        border: 1px dotted rgba(220, 20, 60, 0.6);
+        cursor: pointer;
+  
+        &:hover {
+          background-color: rgba(255, 0, 0, 0.05);
+          transition-duration: 0.3s;
+        }
+      }
+    }
+  }
+      .search{
+        width: 300px;
+        height: 30px;
+        margin-bottom: 20px;
+      }
+  
+      .export{
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #601e9a;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid #601e9a;
+        padding: 5px;
+        margin: 10px;
+       // margin-left: 50%;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #601e9a;
+          color: #ffffff;
+          transition-duration: 0.2s;
+        }
+      }

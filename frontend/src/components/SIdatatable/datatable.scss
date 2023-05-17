@@ -1,0 +1,78 @@
+// .datatable{
+//   margin-bottom: 50px;
+//   margin-top: 50px;
+// }
+//   .datatableTitle{
+//     width: 100%;
+//     font-size: 30px;
+//     color: gray;
+//     margin-top: -10px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     font-weight: bolder;
+
+//   }
+
+//   .export{
+//       text-decoration: none;
+//       background-color: #ffffff;
+//       color: #601e9a;
+//       font-size: 16px;
+//       font-weight: 400;
+//       border: 2px solid #601e9a;
+//       padding: 5px;
+//       margin: 10px;
+//       border-radius: 5px;
+//       cursor: pointer;
+  
+//       &:hover {
+//         background-color: #601e9a;
+//         color: #ffffff;
+//         transition-duration: 0.2s;
+//       }
+//   } 
+
+
+  .datatableTitle{
+    width: 100%;
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 10px;
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: underline;
+
+    
+  }
+
+  
+
+    .search{
+      width: 300px;
+      height: 30px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+    }
+
+    .export{
+      text-decoration: none;
+      background-color: #ffffff;
+      color: #10A19D;
+      font-size: 16px;
+      font-weight: 400;
+      border: 2px solid #10A19D;
+      padding: 5px;
+      margin: 10px;
+      margin-left: 100px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #10A19D;
+        color: #ffffff;
+        transition-duration: 0.2s;
+      }
+    }

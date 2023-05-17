@@ -1,0 +1,48 @@
+.Sidebar{
+    flex: 1;
+    background-color: #622b8628;
+    height:100vh;
+
+.SidebarTitle{
+       color :#696969;
+       text-align: center;
+       font-family: Verdana, Geneva, Tahoma, sans-serif ;
+       
+}
+.center{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height:100% ;
+}
+.details{
+    .detailItem{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 14px;
+        .itemKey{
+            font-weight: bold;
+            color: gray;
+        }
+
+    }
+
+}
+.button{
+
+    color:rgb(0, 0, 0);
+    background-color: rgba(128, 128, 128, 0.727);
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding-left: 35px;
+    -webkit-box-shadow: 2px 5px 15px 1px #A3A3A3; 
+    box-shadow: 2px 5px 15px 1px #A3A3A3;
+    cursor: pointer;
+    
+
+}
+}

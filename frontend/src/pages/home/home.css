@@ -1,0 +1,45 @@
+.homeContainer{
+    width: 100%;
+    max-width: 2024px;
+    height: 100px;
+    background-color: rgb(150, 58, 212);
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 27%;
+    height: 520px;
+    background-color: #ccc;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+  }
+
+  .button{
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 55px;
+  }
+
+  .box h2 {
+    margin-top: 20px;
+    margin-left: 80px;
+    color: rgb(150, 58, 212);
+  }
+  
+  .hover-effect {
+    transition: transform 0.3s ease-out;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.1);
+  }
+  

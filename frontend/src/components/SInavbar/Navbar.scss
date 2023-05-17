@@ -1,0 +1,95 @@
+
+
+.navbarbadge{
+
+    height: 125px;
+    display: flex;
+    background-color: #A8A8AE;
+    align-items: center;
+    ;
+
+
+        .logo{
+            margin-left: 10px;
+            width: 275px;
+            height: 100px;
+            left: 14px;
+            top: 19px;
+            
+        }
+
+        .navContainer{
+            padding-top: 5px;
+            width: 100%;
+            max-width: 800;
+            align-items: center;
+            margin-left: 15px;
+
+       
+            
+        }
+
+  
+
+        .navbutton1,.navbutton2,.navbutton3{
+            
+            align-items: center;
+            justify-content: center;
+            padding-inline: 25px;
+            color: black; 
+            font-weight: bold;
+            border-radius: 10px;
+            height: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            &:hover{
+                background-color: #601e9a;
+                color: white;
+                transition-duration: 0.5s;
+               }
+            
+        }
+
+        .navbutton4{
+            align-items: center;
+            justify-content: center;
+            padding-inline: 25px;
+            color: black; 
+            font-weight: bold;
+            border-radius: 10px;
+            height: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 300px;
+            
+        }
+
+        .rightnav{
+            flex: 50%;
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: -40px;
+            
+        }
+        .notification{
+        
+            font-size: 10px;
+          }
+
+        .profile{
+            padding-left: 10px;;
+            justify-content: end;
+            width: 50px;
+            height:50px;
+            margin-right: 15px;
+           
+        
+        }
+       
+
+
+
+
+    
+}

@@ -1,0 +1,92 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 600px;
+  
+    input {
+      padding: 5px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      transition: border-color 0.3s ease-in-out;
+    
+        &:focus {
+          outline: none;
+          border-color: #601e9a;
+        }
+    }
+    .remark{
+      height:80px;
+    }
+  
+    select {
+      padding: 5px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 105%;
+    }
+  
+    button {
+      background-color: #ffffff;
+      color: #601e9a;
+      padding: 10px;
+      border: 2px solid #601e9a;
+      border-radius: 5px;
+      width: 50%;
+      margin-left: 165px;
+      font-weight: bold;
+  
+      &:hover {
+        background-color: #601e9a;
+        color: #ffffff;
+        transition-duration: 0.2s;
+      }
+    }
+    label{
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+  
+  .error{
+    color: red;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+
+// .BadgeIssueOrderForm{
+//     width: 30%;
+//     margin: 5% auto 0 auto;
+    
+
+//         .field{
+//             margin-top: 40px;
+//         }
+//         .fieldDate{
+
+//             height: 30px;
+//             border: none;
+             
+//             &:hover{
+//                 border-bottom: solid black 2px;
+//                 transition-duration: 0.5s;
+//                }
+//         }
+//         .orderBtn{
+//             margin-top: 40px;
+//             background-color: #601e9a;
+//             width: max-content;
+//             display: flex;
+//             margin-left: 68%;
+
+
+//         }
+// }

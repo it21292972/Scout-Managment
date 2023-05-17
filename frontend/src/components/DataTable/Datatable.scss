@@ -1,0 +1,108 @@
+// .datatable{
+//     padding: 20px;
+// }
+
+// .cellAction{
+//     display: flex;
+//     align-items: center;
+//     .deleteButton{
+//           padding: 2px 5px;
+//           border-radius: 5px;
+//           color:#622b86;
+//           border: 1px dotted #622b8680;
+//           cursor: pointer;
+//     }
+// }
+
+.Datatable {
+    height: 380px;
+    padding: 10px;
+    
+    .datatableTitle{
+      width: 100%;
+      font-size: 30px;
+      color: gray;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .link{
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #622b86;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid #622b86;
+        padding: 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #622b86;
+          color: #ffffff;
+          transition-duration: 0.2s;
+        }
+      }
+    }
+  
+    .cellAction {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  
+      .updateButton {
+        padding: 5px 8px;
+        border-radius: 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+  
+        &:hover {
+          background-color: rgba(0, 0, 139, 0.1);
+          transition-duration: 0.3s;
+        }
+      }
+      
+      .deleteButton {
+        padding: 5px 5px;
+        border-radius: 5px;
+        color: #622b86;
+        border: 1px dotted #622b8693;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: rgba(255, 0, 0, 0.05);
+          transition-duration: 0.3s;
+        }
+      }
+    }
+  }
+      .search{
+        width: 300px;
+        height: 30px;
+        margin-bottom: 20px;
+      }
+  
+      .export{
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #622b86;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid #622b86;
+        padding: 5px;
+        margin: 10px;
+       // margin-left: 50%;
+        border-radius: 5px;
+        cursor: pointer;
+        -webkit-box-shadow: 2px 5px 15px 1px #A3A3A3; 
+        box-shadow: 2px 5px 15px 1px #A3A3A3;
+  
+        &:hover {
+          background-color: #622b86;
+          color: #ffffff;
+          transition-duration: 0.2s;
+        }
+      }

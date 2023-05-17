@@ -1,0 +1,116 @@
+// .customStyles {
+
+//     .headRow {
+//         .style{
+//             background: 'purple';
+//             color: "white";
+//         }
+//     }
+
+//     .headCells{
+//         style{
+//             font-size: '16px';
+//             font-Weight: '600';
+//             text-Transform: 'uppercase';
+//         }
+
+//     }
+
+//     .headCells{
+//         .style {
+//             font-Size: '16px',
+           
+//         }
+//     }
+// }
+.scoutmasterSL {
+    height: 380px;
+    padding: 20px;
+
+    
+    .datatableTitle{
+      width: 100%;
+      font-size: 30px;
+      color: gray;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .link{
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #668b;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid #6228b6;
+        padding: 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #6228b6;
+          color: #ffffff;
+          transition-duration: 0.2s;
+        }
+      }
+    }
+  
+    .cellAction {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  
+      .updateButton {
+        padding: 5px 8px;
+        border-radius: 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+  
+        &:hover {
+          background-color: rgba(0, 0, 139, 0.1);
+          transition-duration: 0.3s;
+        }
+      }
+      
+      .deleteButton {
+        padding: 5px 5px;
+        border-radius: 5px;
+        color: crimson;
+        border: 1px dotted rgba(220, 20, 60, 0.6);
+        cursor: pointer;
+  
+        &:hover {
+          background-color: rgba(255, 0, 0, 0.05);
+          transition-duration: 0.3s;
+        }
+      }
+    }
+  }
+      .search{
+        width: 300px;
+        height: 30px;
+        margin-bottom: 20px;
+      }
+  
+      .export{
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #6228b6;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid #6228b6;
+        padding: 5px;
+        margin: 10px;
+       // margin-left: 50%;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #6228b6;
+          color: #ffffff;
+          transition-duration: 0.2s;
+        }
+      }

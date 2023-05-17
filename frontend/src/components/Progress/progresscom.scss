@@ -1,0 +1,26 @@
+.Progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    // add any additional styles you need for the "Progress" div here
+    margin: 0 auto; // to center the "Progress" div on the page
+    
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 1rem;
+      // add any additional styles you need for the "h1" element here
+    }
+    
+    p1 {
+      font-size: 1.2rem; // increase the font-size here
+      color: #555;
+      margin-bottom: 2rem;
+      // add any additional styles you need for the "p1" element here
+    }
+  }
+  

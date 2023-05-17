@@ -1,0 +1,34 @@
+.knot{
+    width: 1350px;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0.4;
+    margin: 50px 0px 100px 0px;
+   
+}
+.Header{
+position: absolute;
+font-weight: bolder;
+text-decoration: underline;
+margin: -550px 0px 100px 420px;
+color: rgb(41, 6, 6);
+font-size: 30px;
+font-weight: bolder;
+
+}
+.images{
+    gap: 30px;
+}
+
+.Cub{
+margin: -450px 0px 100px 30px;
+position: absolute;
+}
+.Junior{
+margin: -450px 0px 100px 520px;
+position: absolute;
+}
+.Senior{
+margin: -450px 0px 100px 1020px;
+position: absolute;
+}

@@ -1,0 +1,17 @@
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .form{
+        background-color: #A8A8AE;
+        .button{
+            padding:10px;
+            width: 100px;
+            border: none;
+            border-radius: 10px;
+
+        }
+    }
+
+}

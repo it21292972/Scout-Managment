@@ -1,0 +1,181 @@
+.slider{
+    height: calc(100vh - 80px);
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  
+    .container{
+      width: 300vw;
+      height: 100%;
+      display: flex;
+      transition: all 1s ease;
+
+
+      .image-texth1{
+        position: absolute;
+        bottom: 450px;
+        left: 630px;
+        right: 5px;
+        text-decoration: underline;
+      }
+  
+    .image-text1{
+      position: absolute;
+      bottom: 370px;
+      left: 60px;
+      right: 5px;
+      font-size: 18px;
+      font-weight: bolder;
+      
+    }
+    .image-text2{
+      position: absolute;
+      bottom: 330px;
+      left: 180px;
+      right: 5px;
+      font-size: 18px;
+      font-weight: bolder;
+      
+    }
+    .image-text3{
+      position: absolute;
+      bottom: 270px;
+      left: 70px;
+      right: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      font-style: italic;
+      
+    }
+    .image-text4{
+      position: absolute;
+      bottom: 230px;
+      left: 150px;
+      right: 5px;
+      font-size: 18px;
+      font-weight: bolder;
+      font-style: italic;
+    }
+
+    .image-texth2{
+      position: absolute;
+      bottom: 450px;
+      left: 5px;
+      right: 5px;
+      font-size: 30px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    .image-text5{
+      position: absolute;
+      bottom: 370px;
+      left: 5px;
+      right: 5px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+      font-style: italic;
+      
+    }
+    .image-text6{
+      position: absolute;
+      bottom: 330px;
+      left: 5px;
+      right: 5px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+      font-style: italic;
+      
+    }
+    .image-text7{
+      position: absolute;
+      bottom: 290px;
+      left: 5px;
+      right: 5px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+      font-style: italic;
+      
+    }
+    .image-text8{
+      position: absolute;
+      bottom: 250px;
+      left: 5px;
+      right: 5px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+      font-style: italic;
+      
+    }
+    .image-texth3{
+      position: absolute;
+      bottom: 450px;
+      left: 2750px;
+      right: 5px;
+      font-size: 30px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    .image-text9{
+      position: absolute;
+      bottom: 370px;
+      left: 2870px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+    }
+
+    .image-text10{
+      position: absolute;
+      bottom: 330px;
+      left: 2980px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+    }
+  
+    .image-text11{
+      position: absolute;
+      bottom: 270px;
+      left: 2880px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+      font-style: italic;
+    }
+  
+      img{
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.4;
+      }
+    }
+  
+    .icons{
+      width: fit-content;
+      display: flex;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 100px;
+      gap: 10px;
+      margin: auto;
+  
+      .icon{
+        width: 50px;
+        height: 50px;
+        border: 1px solid #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+    }
+  }
+  
+
+
